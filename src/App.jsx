@@ -2,7 +2,6 @@ import React from "react";
 import Table from "./Table";
 import List from "./List";
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -10,6 +9,7 @@ class App extends React.Component {
     this.state = {
       buttonClicked: "",
       assignments: [] /*Below this line, add the students state variable*/,
+      students: [],
       grades: {}
     };
 
